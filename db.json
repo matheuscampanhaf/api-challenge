@@ -1,6 +1,7 @@
 {
     "plans": [
         {
+            "id": 1,
             "name": "Plano 1.0",
             "description": "Perfeito para exeprimentar o peçaZap",
             "prices": {
@@ -13,10 +14,11 @@
                 "Fila de atendimento",
                 "Menu de atendimento",
                 "Carteirização",
-		"Mensagem noturna"
+		        "Mensagem noturna"
             ]
         },
         {
+            "id": 2,
             "name": "Plano 2.0",
             "description": "Perfeito para vender mais",
             "prices": {
@@ -35,6 +37,7 @@
             ]
         },
         {
+            "id": 3,
             "name": "Plano Turbo",
             "description": "Perfeito para escalar as vendas",
             "prices": {
@@ -56,5 +59,7 @@
             ]
         }
     ],
-    "costPerAtendent": 130
+    "attendant": {
+        "cost": 130
+    }
 }
