@@ -7,7 +7,7 @@
             "company": "ACME INC",
             "lastConversations": [
                 {
-                    "channel": 1,
+                    "channel": 1, // canal da conversation. Você tem qual é o canal acessando o endpoint /contacts
                     "finishedAt": 1591627269
                 },
                 {
@@ -22,7 +22,7 @@
             "observations": "Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Quem num gosta di mim que vai caçá sua turmis! Paisis, filhis, espiritis santis. Quem manda na minha terra sou euzis!",
             "contacts": [
                 {
-                    "channel": 1,
+                    "channel": 1, // canal do contato. Você tem qual é o canal acessando o endpoint /contacts
                     "value": "55 (19) 1234-5678"
                 },
                 {
@@ -96,16 +96,17 @@
     "chats": [
         {
             "id": 1,
-            "customer": 1,
-            "channel": 1,
-            "subject": null,
-            "start": 1594388082,
+            "customer": 1, // define a qual customer essa conversa pertence.
+            "channel": 1, // define em qual canal ela está sendo veiculada
+            "subject": null, // define o assunto. Aqui, o assunto é "null" para conversas que não são do canal 2 (email)
+            "start": 1594388082, // em que momento esse atendimento foi iniciado
             "messages": [
                 {
-                    "seen": true,
+                    "seen": true, // se a mensagem foi vista ou não. Para mensagens entrantes, esse campo pode ser "false" ou "true"
+                                  // para mensagens saintes, esse campo é sempre "true".
                     "timestamp": 1594388082,
                     "body": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Quem num gosta di mim que vai caçá sua turmis! In elementis mé pra quem é amistosis quis leo.",
-                    "type": "incoming"
+                    "type": "incoming" // incoming: mensagem entrante, outgoing: mensagem sainte.
                 },
                 {
                     "seen": true,
@@ -161,6 +162,8 @@
     "user": {
         "name": "Carlos Correa",
         "user": "carloscorrea",
-        "password": "carloscorrea"
+        "password": "carloscorrea",
+        "company": "Premium peças",
+        "photo": "https://ui-avatars.com/api/?name=Carlos+Correa"
     }
 }
