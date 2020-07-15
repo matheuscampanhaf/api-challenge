@@ -42,30 +42,30 @@
             "company": "VulcaNet",
             "lastConversations": [
                 {
-                    "type": 2,
+                    "channel": 2,
                     "finishedAt": 1591627279
                 },
                 {
-                    "type": 1,
+                    "channel": 1,
                     "finishedAt": 1591628728
                 },
                 {
-                    "type": 4,
+                    "channel": 4,
                     "finishedAt": 1591651518
                 }
             ],
             "observations": "Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! In elementis mé pra quem é amistosis quis leo. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Sapien in monti palavris qui num significa nadis i pareci latim.",
             "contacts": [
                 {
-                    "type": 1,
+                    "channel": 1,
                     "value": "55 (19) 1234-5678"
                 },
                 {
-                    "type": 2,
+                    "channel": 2,
                     "value": "maria@silva.com.br"
                 },
                 {
-                    "type": 4,
+                    "channel": 4,
                     "value": "@maria_silva"
                 }
             ]
